@@ -1,0 +1,24 @@
+.test {
+  width: 71.42857%;
+  height: 77.77778%;
+  font-size: 12px;
+  background: #ff0000; }
+
+.test1 {
+  padding: 12px; }
+
+.list {
+  width: 400px; }
+
+#top_nav {
+  line-height: 40px;
+  text-transform: capitalize;
+  background-color: #333; }
+  #top_nav li {
+    float: left; }
+  #top_nav a {
+    display: block;
+    padding: 0 10px;
+    color: #fff; }
+    #top_nav a:hover {
+      color: #ddd; }

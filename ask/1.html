@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>1</p>
+<p>2</p>
+<p>3</p>
+<p>4</p>
+<p>5</p>
+</body>
+<script>
+    var pp = document.querySelectorAll('p');
+    for(var i = 0; i<pp.length; i++){
+        (function (i) {
+            pp[i].addEventListener('click',function () {
+                console.log('wyq-19'+i);
+            },false)
+        })(i)
+    }
+</script>
+</html>
